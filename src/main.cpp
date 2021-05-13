@@ -24,7 +24,7 @@ void setup() {
   pinMode ( G, OUTPUT);
   pinMode ( B, OUTPUT);
   Serial.begin(9600);
-  wifiMulti.addAP("JUVISRONET", "50214514");
+  wifiMulti.addAP("WIFI", "SENHA");
   Serial.println("Connecting ...");
   int i = 0;
   while (wifiMulti.run() != WL_CONNECTED) { // Wait for the Wi-Fi to connect: scan for Wi-Fi networks, and connect to the strongest of the networks above
